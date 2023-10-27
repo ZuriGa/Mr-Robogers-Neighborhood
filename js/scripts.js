@@ -7,6 +7,8 @@ function beepBoop(number) {
             transformedNum = "Beep!";
         } else if (transformedNum.includes("2")) {
             transformedNum = "Boop!";
+        } else if (transformedNum.includes("3")) {
+            transformedNum = "Won't you be my neighbor?";
         }
 
         result += transformedNum + " ";
