@@ -1,17 +1,23 @@
 // // // //Business Logic
 function beepBoop(number) {
-    let result = " ";
+    const result = [];
+
     for (let i = 0; i <= number; i++) {
         let transformedNum = i.toString();
-        if (transformedNum.includes("1")) {
+
+        // Get the last digit
+        const lastDigit = transformedNum.charAt(transformedNum.length - 1);
+
+        if (lastDigit === "1") {
             transformedNum = "Beep!";
-        } else if (transformedNum.includes("2")) {
+        } else if (lastDigit === "2") {
             transformedNum = "Boop!";
-        } else if (transformedNum.includes("3")) {
+        } else if (lastDigit === "3") {
             transformedNum = "Won't you be my neighbor?";
         }
 
-        result += transformedNum + " ";
+        result.push(transformedNum) + " ";
     }
-    return result.trim();
+
+    return result;
 }
