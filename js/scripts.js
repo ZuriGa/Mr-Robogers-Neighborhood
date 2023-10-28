@@ -1,4 +1,4 @@
-// // // //Business Logic
+// // Business Logic
 function beepBoop(number) {
     const result = [];
 
@@ -21,3 +21,18 @@ function beepBoop(number) {
 
     return result;
 }
+
+
+// UI Logic
+window.addEventListener("load", function () {
+    const userInputField = document.getElementById("userInput");
+    const submitButton = document.getElementById("submitButton");
+    const resultElem = document.getElementById("result");
+
+    submitButton.addEventListener("click", function () {
+        const userInput = parseInt(userInputField.value);
+        const result = beepBoop(userInput);
+        resultElem.textContent = result.join(", ");
+        
+    });
+});
