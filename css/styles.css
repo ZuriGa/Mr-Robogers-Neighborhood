@@ -29,3 +29,14 @@ img {
     height: 400px;
     object-fit: contain;
 }
+
+
+.box2 {
+    display: inline-flex;
+    background-color: rgb(246, 203, 147);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+}
