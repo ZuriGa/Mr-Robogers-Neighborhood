@@ -39,5 +39,6 @@ Expected Output: [0, "Beep", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8
 
 ## License 
 
-MIT License 
+MIT License
+
 Copyright (c) 2023 Zuri Gallegos
