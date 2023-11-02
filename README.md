@@ -28,7 +28,6 @@ Test 5: "It should replace numbers based on the hierarchy of the numbers within 
 Code: beepBoop(13);\
 Expected Output: [0, "Beep", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"]
 
-
 ## Setup/Installation:
 * _You can clone this repository, you can do this by going to this link https://github.com/ZuriGa/Mr-Robogers-Neighborhood.git_
 * _follow the link above and click on the <> Code button then click on the copy button. Wherever you are storing your projects on your computer, use this git command: git clone url-of-remote-repo. A new folder should be created on your computer and you can navigate it now._
@@ -47,5 +46,6 @@ Click "create new fork" and then select your account as the "Owner", after this 
 
 ## License 
 
-MIT License 
+MIT License
+
 Copyright (c) 2023 Zuri Gallegos
