@@ -6,14 +6,14 @@ function beepBoop(number) {
         let transformedNum = i.toString();
 
         // Get the last digit
-        const lastDigit = transformedNum.charAt(transformedNum.length - 1);
+        transformedNum.charAt(transformedNum.length - 1);
 
-        if (lastDigit === "1") {
-            transformedNum = "Beep!";
-        } else if (lastDigit === "2") {
-            transformedNum = "Boop!";
-        } else if (lastDigit === "3") {
+        if (transformedNum.includes(3)) {
             transformedNum = "Won't you be my neighbor?";
+        } else if (transformedNum.includes(2)) {
+            transformedNum = "Boop!";
+        } else if (transformedNum.includes(1)) {
+            transformedNum = "Beep!";
         }
 
         result.push(transformedNum) + " ";

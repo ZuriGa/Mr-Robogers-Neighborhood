@@ -7,6 +7,7 @@ html {
     height: 100%;
 }
 
+
 .container {
     text-align: center;
     justify-content: center;
@@ -30,6 +31,9 @@ img {
     object-fit: contain;
 }
 
+p span{
+    display: block;
+}
 
 .box2 {
     display: inline-flex;
